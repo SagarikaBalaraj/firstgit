@@ -13,6 +13,9 @@ public class Application {
 		for(String eachItem:list) {
 			System.out.println(eachItem);
 		}
+		
+		Book book=new Book("Java","one");
+		System.out.println(book.getBookName());
 	}
 
 }
